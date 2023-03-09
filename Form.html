@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+    <html lang="es">
+        <!--Alejandro Sánchez Gaxiola-->
+            <!--4AM Programación-->
+           <!--2 de marzo del 2022-->
+           <link rel="shortcut icon" href="Icono.png">
+           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+        <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale-1.0"> <title> Formulario </title> <link rel="stylesheet" href="Estilo.css"> </head>
+        <body style="font-family: Poppins, Verdana;">
+        <center>
+            <ul class="espacio">
+                <li><a href="index.html">     &#127968     </a></li>
+                <li><a href="Bio_Ale.html">     &#128220     </a></li>
+                <li><a href="Music_Ale.html">     &#127925     </a></li>
+                <li><a href="Parientes.html">     &#128106     </a></li>
+                <li><a href="Mosaico_Ale.html">     &#128247     </a></li>
+                <li><a href="Form.html">     &#128172    </a></li>
+                <li><a href="Tablas.html">     &#128222     </a></li>
+            </ul>
+            
+            <div class="div1"> <h1>Formulario</h1> </div>
+            
+            <hr>
+            <div class="div2">
+            <center>
+            <form action="mailto:21325050510588@cbtis051.edu.mx" method="post" enctype="text/plain">
+
+                <br>
+                <fieldset style="background-color: rgb(255, 197, 255); border-radius: 15px;">
+                <b><legend for ="info" style="font-size: larger;"> Información </legend></b>
+                <br>
+                <label for="Nombre" style="font-size: large;"> Nombre:</label><br>
+                <input type="text" id="Nombre" name="Nombre" size="34" maxlength="100" placeholder=" Nombres Apellido Paterno Apellido Materno " value="" autofocus autocomplete required>
+                <br>
+                <label for="Correo" style="font-size: large;"> Correo:</label><br>
+                <input type="email" id="Correo" name="Correo" size="16" placeholder=" Usuario@ejemplo.com " value="" autofocus autocomplete required>
+                <br>
+                <label for="Número de télefono" style="font-size: large;"> Número de télefono:</label><br>
+                <input type="tel" id="Número de télefono" size="13" name="Número de télefono" placeholder=" +52 669-331-8280 " pattern="+[0-9]{3} [0-9]{3}-[0-9]{3}-[0-9]{4}" autofocus autocomplete required>
+                </fieldset>
+                <br> 
+                <br>
+
+                <fieldset style="background-color: rgb(255, 197, 255); border-radius: 15px;">
+                <b><legend for ="Cuenta " style="font-size: larger;"> Cuenta </legend></b>
+                <br>
+
+                <label for="Usuario " style="font-size: large;"> Usuario:</label><br>
+                <input type="text" id="Usuario " name="Usuario " value="" autofocus autocomplete required>
+                <label for="Contraseña " style="font-size: large;"> Contraseña:</label><br>
+                <input type="password" id="password" name="password" value="" autofocus required>
+                
+                </fieldset>
+                <br> 
+                <br>
+
+                <fieldset style="background-color: rgb(255, 197, 255); border-radius: 15px;">
+                <b><legend for ="Fecha de Nacimiento" style="font-size: larger;"> Fecha de Nacimiento </legend></b>
+                <br>
+                <input type="datetime-local" id="Fecha de Nacimiento" min="1940-01-01" autofocus autocomplete required>
+                </fieldset>
+                <br> 
+                <br>
+
+                <fieldset style="background-color: rgb(255, 197, 255); border-radius: 15px;">
+                <b><legend for="genero" style="font-size: larger;" > Género </legend></b>
+                <br>
+                <input type="radio" id="Masculino" name="Genero " value="Masculino" required> 
+                <label for="masculino"> masculino</label>
+                <br>  
+                <input type="radio" id="femenino" name="Genero " value="Femenino" required>
+                <label for="Femenino"> femenino</label> 
+                <br>
+                <input type="radio" id="otro" name="Genero " value="otro">
+                <label for="otro"> Otro </label>
+                </fieldset>
+                <br>
+                <br>
+
+                <fieldset style="background-color: rgb(255, 197, 255); border-radius: 15px;">
+                <b><legend for ="Identificativos" style="font-size: larger;"> Identificativos </legend></b>
+                <br>
+                <label for="Color de pelo" style="font-size: large;"> Color de pelo:</label><br>
+                <input type="Color" id="Color de pelo " autofocus autocomplete required>
+                <br>
+                <label for="Altura" style="font-size: large;"> Altura:</label><br>
+                <input type="number" id="Altura " min="1" max="3" step=".1" value="1.5" autofocus autocomplete required>
+                <br>
+                <label for="Promedio escolar" style="font-size: large;"> Promedio escolar:</label><br>
+                <input type="number" id="Promedio escolar " min="0" max="10" step=".1" value="5" autofocus autocomplete required>
+                <br>
+                <label for="Satisfacción escolar" style="font-size: large;"> Satisfacción escolar:</label><br>
+                <input type="range" id="Satisfacción escolar " min="0" max="100" autofocus autocomplete required>
+                </fieldset>
+                <br> 
+                <br>
+
+                <fieldset style="background-color: rgb(255, 197, 255); border-radius: 15px;">
+                <b><legend for="Preferencias" style="font-size: larger;"> Preferencias </legend></b>
+                <br>
+                <input type="checkbox" id="Pizza" name="Preferencia " value="Pizza"> 
+                <label for="Pizza"> Pizza</label>
+                <br>  
+                <input type="checkbox" id="Hamburguesa" name="Preferencia " value="Hambuerguesa">
+                <label for="Hamburguesa"> Hamburguesa</label> 
+                <br>
+                <input type="checkbox" id="Tacos" name="Preferencia " value="Tacos">
+                <label for="Tacos"> Tacos</label>
+                </fieldset>
+                <br>
+                <br>
+
+                <fieldset style="background-color: rgb(255, 197, 255); border-radius: 15px;">
+                <b><legend for="Estado"style="font-size: larger;"> Ubicación </legend></b>
+                <br>
+
+                <label for="Estado">Elige tu estado</label><br>
+                <select name="Estado " id="Estado" size="1" required>
+
+                    <option value="Estado de Mexico"> Aguascalientes </option>
+                    <option value="Estado de Mexico"> Baja California </option>
+                    <option value="Estado de Mexico"> Baja California Sur </option>
+                    <option value="Estado de Mexico"> Campeche </option>
+                    <option value="Estado de Mexico"> Coahuila</option>
+                    <option value="Estado de Mexico"> Colima </option>
+                    <option value="Estado de Mexico"> Chiapas </option>
+                    <option value="Estado de Mexico"> Chihuahua </option>
+                    <option value="Estado de Mexico"> Durango </option>
+                    <option value="Estado de Mexico"> Distrito Federal </option>
+                    <option value="Estado de Mexico"> Guanajuato </option>
+                    <option value="Estado de Mexico"> Guerrero </option>
+                    <option value="Estado de Mexico"> Hidalgo </option>
+                    <option value="Estado de Mexico"> Jalisco </option>
+                    <option value="Estado de Mexico"> México </option>
+                    <option value="Estado de Mexico"> Michoacán </option>
+                    <option value="Estado de Mexico"> Morelos </option>
+                    <option value="Estado de Mexico"> Nayarit </option>
+                    <option value="Estado de Mexico"> Nuevo León </option>
+                    <option value="Estado de Mexico"> Oaxaca </option>
+                    <option value="Estado de Mexico"> Puebla </option>
+                    <option value="Estado de Mexico"> Querétaro </option>
+                    <option value="Estado de Mexico"> Quintana Roo </option>
+                    <option value="Estado de Mexico"> San Luis Potosí </option>
+                    <option value="Estado de Mexico"> Sinaloa </option>
+                    <option value="Estado de Mexico"> Sonora </option>
+                    <option value="Estado de Mexico"> Tabasco </option>
+                    <option value="Estado de Mexico"> Tamaulipas </option>
+                    <option value="Estado de Mexico"> Tlaxcala </option>
+                    <option value="Estado de Mexico"> Veracruz </option>
+                    <option value="Estado de Mexico"> Yucatán </option>
+                    <option value="Estado de Mexico"> Zacatecas </option>
+
+                </select>
+
+                <br>
+                <br>
+                <label for="Ciudad">Escribe o elige tu ciudad</label><br>
+                <input list="Ciudad">
+
+                <datalist id="Ciudad" name="Ciudad " autofocus autocomplete required>
+                    
+                <option value="Ahome">
+                <option value="El Fuerte">
+                <option value="Choix">
+                <option value="Guasave">
+                <option value="Sinaloa">
+                <option value="Angostura">
+                <option value="Mocorito">
+                <option value="Salvador Alvarado">
+                <option value="Mazatlán">
+                <option value="Culiacán">
+                <option value="Escuinapa">
+                <option value="Elota">
+                <option value="Concordia">
+                <option value="Navolato">
+                <option value="Badiraguato">
+                <option value="Rosario">
+                <option value="San Ignacio">
+                <option value="Escuinapa">
+
+                </datalist>
+
+                </fieldset>
+                <br>
+                <br>
+
+                <fieldset style="background-color: rgb(255, 197, 255); border-radius: 15px;">
+                <b><legend for ="Foto de Perfil" style="font-size: larger;"> Foto de Perfil </legend></b>
+                <br>
+                <label for="Foto de Perfil" style="font-size: large;"> Elige tu Foto:</label><br>
+                <input type="file" id="Foto de Perfil" value="" autofocus autocomplete required>
+                </fieldset>
+                <br> 
+                <br>
+ 
+                <fieldset style="background-color: rgb(255, 197, 255); border-radius: 15px;">
+                <b><legend for ="Comentarios" style="font-size: larger;"> Comentarios </legend></b>
+                <br>
+                <textarea name="Comentarios " cols="40" rows="5" autofocus autocomplete></textarea>
+                </fieldset>
+                <br> 
+                <br>
+ 
+                <fieldset style="background-color: rgb(255, 197, 255); border-radius: 15px;">
+                <input type="reset" value="Limpiar">
+                </fieldset>
+                <br> 
+
+                </div>
+
+                <hr>
+                <input type="image" src="Botón.png" alt="Enviar" width="100" height="100"> 
+                <br>
+                <input type="submit" value="Enviar">
+                <br>
+            </form>
+            </center>
+            
+        </center>
+        </body>
+    </html>
